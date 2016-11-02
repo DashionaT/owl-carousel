@@ -1,0 +1,18 @@
+body {
+    background-color: #edf2f4;
+    max-width:950px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 9px;
+  }
+
+  h1 {
+    color: #dd84a4;
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 50px;
+}
+
+.item {
+
+}

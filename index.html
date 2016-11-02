@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>My Favorite Animals</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+
+  <body>
+
+    <h1>My Favorite Animals</h1>
+
+    <!-- carousel -->
+    <div class="owl-carousel">
+    <div class="item"><img src="img/dog.jpg"></div>
+    <div class="item"><img src="img/fox.jpg"></div>
+    <div class="item"><img src="img/jellyfish.jpg"></div>
+    <div class="item"><img src="img/monkey.jpg"></div>
+    <div class="item"><img src="img/panda.jpg"></div>
+    <div class="item"><img src="img/rabbit.jpg"></div>
+    <div class="item"><img src="img/unicorn.jpg"></div>
+    <div class="item"><img src="img/bird.jpg"></div>
+  </div>
+
+    <!-- JavaScript -->
+
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+
+    <script>
+    $(document).ready(function() {
+      $('.owl-carousel').owlCarousel({
+        autoplay : true,
+        autoplayHoverPause : true,
+        autoplayTimeout : 2000,
+        items : 1,
+        loop : true
+      })
+     })
+    </script>
+  </body>
+</html>
